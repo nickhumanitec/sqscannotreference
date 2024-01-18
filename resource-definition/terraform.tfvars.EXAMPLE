@@ -1,0 +1,9 @@
+humanitec_organization = "nick"
+humanitec_token        = "xxx"
+
+app = "myapp"
+
+# export HUMANITEC_TOKEN="xxx"
+# export HUMANITEC_ORG="nick"
+# export HUMANITEC_APP="myapp"
+# score-humanitec delta --token $HUMANITEC_TOKEN --org $HUMANITEC_ORG --app $HUMANITEC_APP --env development -f backend.yaml --deploy
