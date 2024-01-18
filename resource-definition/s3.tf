@@ -14,10 +14,6 @@ resource "humanitec_resource_definition" "s3" {
   driver_inputs = {
     secrets_string = jsonencode({
       variables = {
-        access_key      = var.access_key
-        secret_key      = var.secret_key
-        assume_role_arn = var.assume_role_arn
-        region          = var.region
       }
     }),
     values_string = jsonencode({
